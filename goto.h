@@ -8,5 +8,7 @@ class Goto : public Command
     string target;
     public:
     void setTarget(string);
+    Goto();
+    Goto(string);
 };
 #endif

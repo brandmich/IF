@@ -10,6 +10,8 @@ class Set : public Command
 
     public:
     void setVar(string);
-    void setVal(bool);
+    void setVal(string);
+    Set();
+    Set(string);
 };
 #endif

@@ -11,9 +11,11 @@ class Link
     string target;
 
     public:
-    void setHasGT(bool);
+    void setHasGT(string);
     void setDisplay(string);
     void setTarget(string);
+    Link();
+    Link(string, string);
 };
 
 #endif

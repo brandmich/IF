@@ -9,6 +9,8 @@ class ifElse : public Command
     bool value;
     public:
     void setVar(string);
-    void setVal(bool);
+    void setVal(string);
+    ifElse();
+    ifElse(string);
 };
 #endif
