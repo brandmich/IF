@@ -15,12 +15,12 @@ IfElse::IfElse(string var)
     variable = var;
 }
 
-void setVar(string var)
+void IfElse::setVar(string var)
 {
     variable = var;
 }
 
-void setVal(string val)
+void IfElse::setVal(string val)
 {
     if(val == "true")
     {
