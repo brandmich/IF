@@ -15,7 +15,7 @@ class Link
     void setDisplay(string);
     void setTarget(string);
     Link();
-    Link(string, string);
+    Link(string, string);//display, target
 };
 
 #endif
