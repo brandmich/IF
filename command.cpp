@@ -28,7 +28,7 @@ void Command::setVar(string tar)
 
 void Command::setVal(string val)
 {
-    if(val = "true")
+    if(val == "true")
         value = true;
     else
         value = false;
