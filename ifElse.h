@@ -2,7 +2,7 @@
 #define ifElse
 #include "command.h"
 
-class ifElse : public Command
+class IfElse : public Command
 {
     private:
     string variable;
@@ -10,7 +10,7 @@ class ifElse : public Command
     public:
     void setVar(string);
     void setVal(string);
-    ifElse();
-    ifElse(string);
+    IfElse();
+    IfElse(string);
 };
 #endif
